@@ -1,0 +1,5 @@
+get all folder names of packs.
+
+generate entry in launcher_profiles.json (need to provide edited name, java args and version to use for each profile).
+
+manifest.json inside mod folder provides the forge mod loader version to use.
