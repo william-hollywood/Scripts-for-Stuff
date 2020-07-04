@@ -70,7 +70,7 @@ else:
 ##username = "PUT EMAIL HERE"
 ##playlistID = 'ID OF PLAYLIST TO DOWNLOAD'
 
-token = util.prompt_for_user_token(username,scope,client_id='7a9eabfc59d14ce8a15fd6ac5af9ef74',client_secret='7dd41d0994f84f1ca5fd1cf43f00baf3',redirect_uri='https://google.com')
+token = util.prompt_for_user_token(username,scope,client_id='TOKEN',client_secret='TOKEN',redirect_uri='TOKEN')
 
 if token:
 	sp = spotipy.Spotify(auth=token)
