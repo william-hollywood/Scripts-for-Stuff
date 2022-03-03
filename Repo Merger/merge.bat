@@ -21,6 +21,16 @@ set temp="..\%name%"
 
 mkdir %temp%
 
-move * %temp%
+robocopy .\ %temp% /s /move /XD ".git"
 
 move %temp% .\
+
+git add .
+
+git commit -am "Moved all files into %name% sub directory"
+
+git checkout -b %name%
+
+git checkout master
+
+git merge %name% --allow-unrelated-histories -m "Added %name% repo"
