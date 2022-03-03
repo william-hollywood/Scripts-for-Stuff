@@ -15,3 +15,6 @@ Below are the projects which are contained:
 - The inspiration for this repo. It is used to clone and merge seperate repositories into one in the format seen here.
 - The above projects were moved using this tool. Used to maintain development commits for existing projects. 
 - Could this be done by hand? Yes? Is it faster using this? Yes?
+
+## [RoR2DescriptionSwitch](RoR2DescriptionSwitch)
+- This is a quick script to replace the item descriptions in Risk of Rain 2 with the ones from the logbook which provide additional detail into what the items do and how they stack.
