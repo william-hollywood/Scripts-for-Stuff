@@ -21,6 +21,6 @@ set temp="..\%name%"
 
 mkdir %temp%
 
-move *.* %temp%
+move * %temp%
 
 move %temp% .\
